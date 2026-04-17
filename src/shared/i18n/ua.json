@@ -1,0 +1,163 @@
+{
+  "nav": {
+    "projects": "Проєкти",
+    "career": "Кар'єра",
+    "contact": "Контакти"
+  },
+   "common": {
+    "back": "Назад"
+  },
+    "lang": {
+    "en": "ENG",
+    "ua": "UA"
+  },
+    "footer": {
+    "privacy": "Конфіденційність",
+    "terms": "Умови"
+  },
+   "privacy": {
+    "title": "Політика конфіденційності",
+    "introTitle": "Вступ",
+    "introText": "Ми поважаємо вашу конфіденційність і прагнемо захищати ваші персональні дані.",
+    "dataTitle": "Які дані ми збираємо",
+    "dataText": "Ми можемо збирати такі дані, як ім’я, email та інформацію про використання.",
+    "usageTitle": "Як ми використовуємо дані",
+    "usageText": "Ваші дані використовуються для покращення наших сервісів.",
+    "contactTitle": "Контакти",
+    "contactText": "Якщо у вас є питання — зв’яжіться з нами."
+  },
+  "terms": {
+    "title": "Умови користування",
+    "introTitle": "Вступ",
+    "introText": "Користуючись цим сайтом, ви погоджуєтесь з цими умовами.",
+    "useTitle": "Використання сервісу",
+    "useText": "Ви погоджуєтесь використовувати сервіс лише в законних цілях.",
+    "liabilityTitle": "Обмеження відповідальності",
+    "liabilityText": "Ми не несемо відповідальності за будь-які збитки.",
+    "changesTitle": "Зміни умов",
+    "changesText": "Ми можемо змінювати ці умови без попередження."
+  },
+  "hero": {
+    "title": "Підтримка оборони України",
+    "subtitle": "Сучасні тактичні рішення",
+    "supportButton": "Підтримати",
+    "detailsButton": "Деталі"
+  },
+  "stats": {
+    "drones": "дронів",
+    "missions": "місій",
+    "donations": "донатів"
+  },
+  "projectPreview": {
+    "title": "Актуальні проєкти",
+     "viewAllButton": "Всі проєкти"
+  },
+  "projectPage": {
+    "title": "Проєкти"
+  },
+   "projectCart": {
+    "detailsButton": "Деталі",
+    "loading": "Завантаження...",
+    "notFound": "Проєкт не знайдено",
+    "progress": "Прогрес"
+  },
+   "career": {
+    "hero": {
+      "title": "Приєднуйся до команди",
+      "description": "Ми створюємо технології для оборони та безпеки. Шукаємо людей, які хочуть впливати.",
+      "send_cv": "Надіслати CV"
+    },
+    "reasons": {
+      "title": "Чому варто до нас приєднатись",
+      "real_tasks": "Робота над реальними задачами",
+      "strong_team": "Сильна команда",
+      "fast_growth": "Швидкий ріст"
+    },
+    "open_positions": {
+      "title": "Відкриті вакансії"
+    },
+    "contact": {
+      "title": "Не знайшов вакансію?",
+      "description": "Надішли нам своє резюме — ми зв’яжемось",
+      "button": "Написати нам"
+    }
+  },
+  "contact": {
+    "title": "Контакти",
+    "name": "Ім'я",
+    "email": "Email",
+    "phone": "Телефон",
+    "message": "Повідомлення",
+    "agree": "Я погоджуюсь на обробку даних",
+    "send": "Відправити",
+    "jobTitle": "Назва вакансії",
+    "submitSuccess": "Дані успішно відправлені",
+    "error": {
+      "submitError": "Не вдалося надіслати повідомлення. Спробуйте ще раз пізніше."
+    }
+  },
+  "login": {
+    "email": "Електронна пошта",
+    "password": "Пароль",
+    "loading": "Завантаження",
+    "login": "Увійти",
+    "forgotPassword": "Забули пароль?",
+    "continueWithGoogle": "Продовжити з Google",
+    "or": "чи"
+  },
+  "logout": {
+    "title": "Вилогінитись"
+  },
+  "admin": {
+    "title": "Сторінка адміністратора"
+  },
+  "validation": {
+    "required": "Обов’язкове поле",
+    "invalid_email": "Невірний email",
+    "agree": "Потрібно погодитись",
+    "password_min": "Мінімум 6 символів",
+    "password_uppercase": "Має містити хоча б одну велику літеру",
+    "password_lowercase": "Має містити хоча б одну малу літеру",
+    "password_number": "Має містити хоча б одну цифру"
+  },
+  "notification": {
+    "entryError": "Помилка входу",
+    "entryErrorWithGoogle": "Помилка входу через Google",
+    "logoutError":  "Помилка виходу",
+    "successfulLogin": "Успішний вхід",
+    "successfulGoogleLogin": "Успішний вхід через Google",
+    "errors": {
+      "invalidCredentials": "Невірний email або пароль",
+      "googlePopupClosed": "Вхід через Google було скасовано",
+      "googlePopupBlocked": "Браузер заблокував popup для входу через Google",
+      "tooManyRequests": "Забагато спроб. Спробуйте пізніше",
+      "generic": "Помилка авторизації. Спробуйте ще раз",
+      "unknown": "Щось пішло не так",
+      "noAdminPermisions": "У вас немає доступу до адмінки",
+      "writeEmail": "Заповніть поле email в формі",
+      "noActionPermission": "У вас немає доступу до цієї дії",
+      "serviceNotAvailable": "Сервіс тимчасово недоступний",
+      "notFound": "Документ не знайдено"
+    },
+    "success": {
+      "passwordResetSent": "Лист для відновлення пароля надіслано"
+    }
+  },
+  "careers": {
+    "applyTitle": "Податися",
+    "successfulSaving": "Вакансію створено",
+    "successfulUpdating": "Вакансію оновлено",
+    "successfulDeleting": "Вакансію видалено",
+    "unsuccessfulSaving": "Не вдалося створити вакансію",
+    "unsuccessfulUpdating": "Не вдалося оновити вакансію",
+    "unsuccessfulDeleting": "Не вдалося видалити вакансію"
+  },
+  "projects" : {
+    "successfulSaving": "Проект створено",
+    "successfulUpdating": "Проект оновлено",
+    "successfulDeleting": "Проект видалено",
+    "unsuccessfulSaving": "Не вдалося створити проект",
+    "unsuccessfulUpdating": "Не вдалося оновити проект",
+    "unsuccessfulDeleting": "Не вдалося видалити проект"
+  }
+}

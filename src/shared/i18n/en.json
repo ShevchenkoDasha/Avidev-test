@@ -1,0 +1,163 @@
+{
+  "nav": {
+    "projects": "Projects",
+    "career": "Career",
+    "contact": "Contact"
+  },
+  "common": {
+    "back": "Back"
+  },
+  "lang": {
+    "en": "ENG",
+    "ua": "UA"
+  },
+  "footer": {
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "introTitle": "Introduction",
+    "introText": "We value your privacy and are committed to protecting your personal data.",
+    "dataTitle": "Data We Collect",
+    "dataText": "We may collect personal information such as name, email address, and usage data.",
+    "usageTitle": "How We Use Data",
+    "usageText": "Your data is used to improve our services and provide better user experience.",
+    "contactTitle": "Contact Us",
+    "contactText": "If you have any questions, please contact us via email."
+  },
+   "terms": {
+    "title": "Terms of Service",
+    "introTitle": "Introduction",
+    "introText": "By using this website, you agree to these terms and conditions.",
+    "useTitle": "Use of Service",
+    "useText": "You agree to use the service only for lawful purposes.",
+    "liabilityTitle": "Limitation of Liability",
+    "liabilityText": "We are not liable for any damages resulting from the use of our service.",
+    "changesTitle": "Changes to Terms",
+    "changesText": "We may update these terms from time to time without prior notice."
+  },
+  "hero": {
+    "title": "Support Ukraine's Defense",
+    "subtitle": "Modern tactical solutions",
+    "supportButton": "Support",
+    "detailsButton": "Details"
+  },
+  "stats": {
+    "drones": "drones",
+    "missions": "missions",
+    "donations": "donations"
+  },
+  "projectPreview": {
+    "title": "Current Projects",
+    "viewAllButton": "View All Projects"
+  },
+  "projectPage": {
+    "title": "Projects"
+  },
+  "projectCart": {
+    "detailsButton": "Details",
+    "loading": "Loading...",
+    "notFound": "Project not found",
+    "progress": "Progress"
+  },
+  "career": {
+    "hero": {
+      "title": "Join Our Team",
+      "description": "We build technologies for defense and security. Looking for people who want to make an impact.",
+      "send_cv": "Send CV"
+    },
+    "reasons": {
+      "title": "Why Join Us",
+      "real_tasks": "Work on real projects",
+      "strong_team": "Strong team",
+      "fast_growth": "Rapid growth"
+    },
+    "open_positions": {
+      "title": "Open Positions"
+    },
+    "contact": {
+      "title": "Didn't find a vacancy?",
+      "description": "Send us your resume — we will get in touch",
+      "button": "Contact Us"
+    }
+  },
+   "contact": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "agree": "I agree to data processing",
+    "send": "Send",
+    "jobTitle": "Job title",
+    "submitSuccess": "Data successfully sent",
+    "error": {
+      "submitError": "Failed to send message. Please try again later."
+    }
+  },
+  "login": {
+    "email": "Email",
+    "password": "Password",
+    "loading": "Loading",
+    "login": "Login",
+    "forgotPassword": "Forgot password?",
+    "continueWithGoogle": "Continue with Google",
+    "or": "or"
+  },
+  "logout": {
+    "title": "Logout"
+  },
+  "admin": {
+    "title": "Admin page"
+  },
+  "validation": {
+    "required": "Required field",
+    "invalid_email": "Invalid email",
+    "agree": "You must agree",
+    "password_min": "Minimum 6 characters",
+    "password_uppercase": "At least one uppercase letter is required",
+    "password_lowercase": "At least one lowercase letter is required",
+    "password_number": "At least one number is required"
+  },
+  "notification": {
+    "entryError": "Login Error",
+    "entryErrorWithGoogle": "Login with Google error",
+    "logoutError":  "Logout Error",
+    "successfulLogin": "Successful login",
+    "successfulGoogleLogin": "Successful Google login",
+    "errors": {
+      "invalidCredentials": "Invalid email or password",
+      "googlePopupClosed": "Google sign-in was cancelled",
+      "googlePopupBlocked": "The browser blocked the Google sign-in popup",
+      "tooManyRequests": "Too many attempts. Please try again later",
+      "generic": "Authentication error. Please try again",
+      "unknown": "Something went wrong",
+      "noAdminPermissions": "You do not have access to the admin panel",
+      "writeEmail": "Fill email field in the login form",
+       "noActionPermission": "You do not have permission to perform this action",
+      "serviceNotAvailable": "The service is temporarily unavailable",
+      "notFound": "Document not found"
+    },
+    "success": {
+      "passwordResetSent": "Password reset email has been sent"
+    }
+  },
+  "careers": {
+    "applyTitle": "Apply",
+    "successfulSaving": "Career has been created",
+    "successfulUpdating": "Career has been updated",
+    "successfulDeleting": "Career has been deleted",
+    "unsuccessfulSaving": "Failed to create career",
+    "unsuccessfulUpdating": "Failed to update career",
+    "unsuccessfulDeleting": "Failed to delete career"
+  },
+  "projects": {
+    "successfulSaving": "Project has been created",
+    "successfulUpdating": "Project has been updated",
+    "successfulDeleting": "Project has been deleted",
+    "unsuccessfulSaving": "Failed to create project",
+    "unsuccessfulUpdating": "Failed to update project",
+    "unsuccessfulDeleting": "Failed to delete project"
+  }
+}

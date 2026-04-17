@@ -1,0 +1,1 @@
+export { AdvancedTranslation } from './AdvancedTranslation';
