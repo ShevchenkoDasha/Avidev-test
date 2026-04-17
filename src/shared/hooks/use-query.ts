@@ -15,8 +15,8 @@ export interface UseQueryModel<T, Error = DefaultError> {
   data: T | undefined;
   error: Error | null;
   isFetching: boolean;
-  isLoading: Boolean;
-  isError: Boolean;
+  isLoading: boolean;
+  isError: boolean;
 }
 
 export const useQuery = <T, Error = DefaultError>(

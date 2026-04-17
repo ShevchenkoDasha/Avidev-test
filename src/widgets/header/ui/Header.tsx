@@ -29,7 +29,7 @@ export const Header = () => {
         (event.currentTarget as HTMLElement).click();
       });
     },
-    [handleKeyDownEnterSpace],
+    [],
   );
 
   return (

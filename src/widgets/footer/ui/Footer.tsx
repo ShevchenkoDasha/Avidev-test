@@ -1,13 +1,8 @@
 import { Link } from 'react-router-dom';
 
-import { ROUTES } from '@/shared/constants/routes';
 import { useTranslation } from '@/shared/hooks';
 import { Container } from '@/shared/ui/container';
-
-export const FOOTER_LINKS = [
-  { label: 'footer.privacy', href: ROUTES.PRIVACY },
-  { label: 'footer.terms', href: ROUTES.TERM },
-];
+import { FOOTER_LINKS } from '../constants/fotter-links';
 
 export const Footer = () => {
   const { translate } = useTranslation();

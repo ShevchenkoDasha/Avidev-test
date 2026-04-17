@@ -13,7 +13,7 @@ const AdminPage = () => {
 
   const handleLogout = useCallback(async () => {
     await dispatch(logout());
-  }, []);
+  }, [dispatch]);
 
   return (
     <div className="flex flex-col gap-16 pb-16">

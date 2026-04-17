@@ -38,7 +38,9 @@ export const Toast = memo((props: ToastPropsModel) => {
 
   const closeHandler = useCallback(
     (_: SyntheticEvent | Event, reason: SnackbarCloseReason) => {
-      reason === 'timeout' && handleClose();
+      if (reason === 'timeout') {
+        handleClose();
+      }
     },
     [handleClose],
   );

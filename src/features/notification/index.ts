@@ -1,1 +1,1 @@
-export {useNotification} from './hooks';
+export { useNotification } from './hooks';

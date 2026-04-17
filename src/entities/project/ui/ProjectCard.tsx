@@ -24,7 +24,7 @@ export const ProjectCard = memo(
 
     const onDetailsClick = useCallback(() => {
       navigate(getProjectDetailsLink(id));
-    }, [navigate]);
+    }, [navigate, id]);
 
     return (
       <Card>

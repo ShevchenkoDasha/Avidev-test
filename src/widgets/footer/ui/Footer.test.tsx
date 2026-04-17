@@ -1,7 +1,8 @@
 import { screen } from '@testing-library/react';
 
-import { Footer, FOOTER_LINKS } from './Footer';
+import { Footer } from './Footer';
 import { renderWithProviders } from '@/test/test-utils.tsx';
+import { FOOTER_LINKS } from '../constants/fotter-links';
 
 describe('Footer', () => {
   it('renders copyright text', () => {

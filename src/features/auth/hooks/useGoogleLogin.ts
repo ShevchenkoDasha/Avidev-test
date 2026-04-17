@@ -31,7 +31,7 @@ export const useGoogleLogin = (): UseGoogleLoginData => {
       const appError = error as AppError;
       showError(translate(appError.message));
     }
-  }, [dispatch, navigate]);
+  }, [dispatch, translate, navigate, showSuccess, showError]);
 
   return useMemo(
     () => ({

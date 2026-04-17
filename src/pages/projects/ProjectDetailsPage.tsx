@@ -11,6 +11,7 @@ const ProjectDetailsPage = () => {
   const navigate = useNavigate();
   const { translate, currentLang } = useTranslation();
   const { data, isLoading, isError, error } = useProject(id);
+  const handleNavigate = useCallback(() => navigate(-1), [navigate]);
 
   if (isLoading) return <div>{translate('projectCart.loading')}</div>;
   if (isError)
@@ -25,8 +26,6 @@ const ProjectDetailsPage = () => {
       </div>
     );
   }
-
-  const handleNavigate = useCallback(() => navigate(-1), []);
 
   return (
     <div className="max-w-3xl mx-auto p-6">

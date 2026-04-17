@@ -1,4 +1,4 @@
-import React, {
+import {
   type FC,
   Fragment,
   type PropsWithChildren,
@@ -6,7 +6,7 @@ import React, {
   type ReactNode,
 } from 'react';
 import { type Store } from 'redux';
-import { Route, MemoryRouter, Routes } from 'react-router-dom';
+import { MemoryRouter } from 'react-router-dom';
 import { render, type RenderOptions, renderHook } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import { vi } from 'vitest';

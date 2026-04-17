@@ -1,7 +1,6 @@
 import { useCallback, useMemo } from 'react';
 
 import type { AppError } from '@/shared/lib/errors/app-error.types';
-import { useAppDispatch } from '@/app/store/hooks';
 import { forgotPassword } from '@/entities/auth/api/auth.service';
 import { useTranslation } from '@/shared/hooks';
 import { useNotification } from '@/features/notification/hooks/useNotification';
@@ -11,7 +10,6 @@ interface UseForgotPasswordData {
 }
 
 export const useForgotPassword = (): UseForgotPasswordData => {
-  const dispatch = useAppDispatch();
   const { translate } = useTranslation();
   const { showError, showSuccess } = useNotification();
 
@@ -27,7 +25,7 @@ export const useForgotPassword = (): UseForgotPasswordData => {
         showError(translate(appError.message));
       }
     },
-    [dispatch, translate],
+    [translate, showSuccess, showError],
   );
 
   return useMemo(

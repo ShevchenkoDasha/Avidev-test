@@ -3,8 +3,8 @@ import { CircularLoader } from '@/shared/ui/circular-loader';
 
 type QueryStateRendererProps<T> = {
   data?: T[];
-  isLoading: Boolean;
-  isError: Boolean;
+  isLoading: boolean;
+  isError: boolean;
   error?: Error | null;
   renderItem: (item: T) => ReactNode;
   emptyFallback?: ReactNode;

@@ -1,5 +1,4 @@
-import { describe, it, expect, vi } from 'vitest';
-import { act } from '@testing-library/react';
+import { describe, it, expect } from 'vitest';
 import { useNotification } from './useNotification';
 import {
   renderHookWithStore,
