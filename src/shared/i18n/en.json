@@ -8,7 +8,7 @@
     "back": "Back"
   },
   "lang": {
-    "en": "ENG",
+    "en": "EN",
     "ua": "UA"
   },
   "footer": {
@@ -159,5 +159,39 @@
     "unsuccessfulSaving": "Failed to create project",
     "unsuccessfulUpdating": "Failed to update project",
     "unsuccessfulDeleting": "Failed to delete project"
+  },
+  "seo": {
+    "main": {
+      "title": "Avidev — Advanced Defense Technology Solutions",
+      "description": "Avidev develops cutting-edge technologies for security and defense, including unmanned systems, robotic platforms, and engineering solutions for modern challenges."
+    },
+    "projects": {
+      "title": "Projects",
+      "description": "Explore Avidev projects in unmanned aerial systems, robotics, and defense technology."
+    },
+    "career": {
+      "title": "Career",
+      "description": "Join Avidev and explore career opportunities in modern technology and product development."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Get in touch with Avidev for collaborations, project inquiries, and business opportunities."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "Read Avidev privacy policy and learn how we collect, use, and protect personal data."
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "description": "Read the terms of use for accessing and using the Avidev website and services."
+    },
+    "admin": {
+      "title": "Admin",
+      "description": "Admin area"
+    },
+    "login": {
+      "title": "Admin Login",
+      "description": "Admin login area"
+    }
   }
 }

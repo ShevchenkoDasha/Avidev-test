@@ -1,45 +1,57 @@
 import { Container } from '@/shared/ui/container';
 import { useTranslation } from '@/shared/hooks';
+import { Seo } from '@/shared/ui/seo/Seo';
+import { ROUTES } from '@/shared/constants/routes';
 
 const TermsPage = () => {
-  const { translate } = useTranslation();
+  const { translate, currentLang } = useTranslation();
 
   return (
-    <main className="py-12">
-      <Container maxWidth="md">
-        <h1 className="text-3xl font-bold mb-6">{translate('terms.title')}</h1>
+    <>
+      <Seo
+        title={translate('seo.terms.title')}
+        description={translate('seo.terms.description')}
+        canonical={ROUTES.TERM}
+        locale={currentLang}
+      />
+      <div className="py-12">
+        <Container maxWidth="md">
+          <h1 className="text-3xl font-bold mb-6">
+            {translate('terms.title')}
+          </h1>
 
-        <div className="space-y-6 text-text-secondary leading-relaxed">
-          <section>
-            <h2 className="text-xl font-semibold text-white mb-2">
-              {translate('terms.introTitle')}
-            </h2>
-            <p>{translate('terms.introText')}</p>
-          </section>
+          <div className="space-y-6 text-text-secondary leading-relaxed">
+            <section>
+              <h2 className="text-xl font-semibold text-white mb-2">
+                {translate('terms.introTitle')}
+              </h2>
+              <p>{translate('terms.introText')}</p>
+            </section>
 
-          <section>
-            <h2 className="text-xl font-semibold text-white mb-2">
-              {translate('terms.useTitle')}
-            </h2>
-            <p>{translate('terms.useText')}</p>
-          </section>
+            <section>
+              <h2 className="text-xl font-semibold text-white mb-2">
+                {translate('terms.useTitle')}
+              </h2>
+              <p>{translate('terms.useText')}</p>
+            </section>
 
-          <section>
-            <h2 className="text-xl font-semibold text-white mb-2">
-              {translate('terms.liabilityTitle')}
-            </h2>
-            <p>{translate('terms.liabilityText')}</p>
-          </section>
+            <section>
+              <h2 className="text-xl font-semibold text-white mb-2">
+                {translate('terms.liabilityTitle')}
+              </h2>
+              <p>{translate('terms.liabilityText')}</p>
+            </section>
 
-          <section>
-            <h2 className="text-xl font-semibold text-white mb-2">
-              {translate('terms.changesTitle')}
-            </h2>
-            <p>{translate('terms.changesText')}</p>
-          </section>
-        </div>
-      </Container>
-    </main>
+            <section>
+              <h2 className="text-xl font-semibold text-white mb-2">
+                {translate('terms.changesTitle')}
+              </h2>
+              <p>{translate('terms.changesText')}</p>
+            </section>
+          </div>
+        </Container>
+      </div>
+    </>
   );
 };
 
