@@ -5,15 +5,17 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint . --fix",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint",
+    "lint:fix": "eslint . --fix",
     "preview": "vite preview",
     "test-watch": "vitest",
     "test:run": "vitest run",
     "test:coverage": "vitest run --coverage",
     "format": "prettier --write 'src/**/*.{ts,tsx,js,jsx}'",
     "pre-commit": "lint-staged test:run",
-    "pre-push": "npm run build",
+    "pre-push": "npm run typecheck && npm run build",
     "prepare": "husky"
   },
   "dependencies": {
